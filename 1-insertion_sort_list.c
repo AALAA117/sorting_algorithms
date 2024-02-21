@@ -1,13 +1,12 @@
 #include "sort.h"
 
 /**
- * create_listint - Creates a doubly linked list from an array of integers
+ * insertion_sort_list - sorts a doubly linked list of integers
+ * @list:..
  *
- * @array: Array to convert to a doubly linked list
- * @size: Size of the array
- *
- * Return: Pointer to the first element of the created list. NULL on failure
+ * Return: nothing
  */
+void insertion_sort_list(listint_t **list);
 void insertion_sort_list(listint_t **list)
 {
 	listint_t *current = *list;
